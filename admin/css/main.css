@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    font-family: 'League Spartan', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 60px;
+    /* margin: 10px; */
+    background-color: white;
+    -webkit-box-shadow: 0 8px 6px -6px rgb(150, 149, 149);
+       -moz-box-shadow: 0 8px 6px -6px rgb(150, 149, 149);
+            box-shadow: 0 8px 6px -6px rgb(150, 149, 149);
+}
+.logo img{
+    padding-left: 53px;
+}
+.profile {
+    display: flex;
+    float: right;
+    position: relative;
+    bottom: 50px;
+    right: 15px;
+}
+.profile a {
+    position: relative;
+    bottom: 4px;
+}
+.profile p {
+    margin-top: 5px;
+    margin-right: 4px;
+}
+
+.navbar {
+    background-color: rgb(40,51,57);
+    height: 800px;
+    width: 200px;
+    float: left;
+}
+.exit-text {
+   position: relative;
+   top: 4px;
+   left: 4px;
+}
+.menu-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 36px;
+    
+}
+.navbar a:hover {
+    color: #fb0303;
+}
+.menu-bar ul {
+    list-style: none;
+    line-height: 50px;
+    font-size: 16px;
+    
+}
+.bx {
+    display: block;
+    float: left;
+    color: white;
+    margin-top: 15px;
+    margin-left: 6px;
+    font-size: 25px;
+} 
+.navbar ul li a {
+    font-size: 18px;
+    display: block;
+    list-style: none;
+    border-bottom: solid 1px rgba(255,255,2);
+    
+}
+/*Danh mục*/
+.container_danhmuc_add {
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.form_danhmuc_add {
+    line-height: 30px;
+    margin-top: 20px;
+}
+.row_admin_add input {
+    width: 100%;
+    padding: 10px;
+}
+.row_danhmuc_btn {
+    margin-top: 10px;
+}
+.row_danhmuc_btn input {
+    padding: 10px;
+    font-size: 15px;
+}
+.btdm-submit {
+    background-color: rgb(58, 138, 242);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.btdm-submit:hover {
+    background-color: rgb(5, 86, 192);
+}
+.btdm-reset {
+    background-color: rgb(58, 138, 242);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.btdm-reset:hover {
+    background-color: rgb(5, 86, 192);
+}
+.btdm-danhsach {
+    background-color: rgb(247, 15, 15);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.btdm-danhsach:hover {
+    background-color: rgb(181, 11, 11);
+}
+.container_danhmuc_list {
+    float: left;
+    margin: 20px;
+    width: 82%;
+}
+.content_danhmuc_list {
+    margin-top: 15px;
+}
+.content_danhmuc_list {
+    padding: 10px 0px;
+}
+.row_danhmuc_list table {
+    /* width: 100%; */
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.row_danhmuc_list table th {
+    width: 500px;
+    padding: 20px;
+    background-color: #0baaee;
+    color: white;
+}
+/* .row_danhmuc_list table th:nth-child(2) {
+    width: 30%;
+    background-color: #CCC;
+}
+.row_danhmuc_list table th:nth-child(3) {
+    width: 40%;
+    background-color: #CCC;
+}
+.row_danhmuc_list table th:nth-child(4) {
+    width: 20%;
+    background-color: #CCC;
+} */
+.row_danhmuc_list table td {
+    padding: 10px 20px;
+    border: 1px #CCC solid;
+}
+.tittle_danhmuc_list {
+    text-align: center;
+}
+.btdm-sua {
+    display: inline-block;
+    padding: 5px;
+    width: 50px;
+    border: none;
+    outline: none;
+    background-color: rgb(15, 211, 15);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 2px;
+}
+.btdm-sua:hover {
+    background-color: rgb(8, 134, 8);
+
+}
+.btdm-xoa {
+    display: inline-block;
+    padding: 5px;
+    width: 50px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 6, 6);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 2px;
+}
+.btdm-xoa:hover {
+    background-color: rgb(183, 7, 7);
+
+}
+
+
